@@ -56,6 +56,6 @@ class MailChimpTransport implements TransportInterface, VisibilityTransportInter
      */
     public function isVisibleInForm()
     {
-        return false;
+        return true;
     }
 }
