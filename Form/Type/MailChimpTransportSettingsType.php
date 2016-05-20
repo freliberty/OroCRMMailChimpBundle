@@ -25,7 +25,7 @@ class MailChimpTransportSettingsType extends AbstractTransportSettingsType
                     'required' => true
                 ]
             )
-            /*
+
             ->add(
                 'template',
                 'orocrm_mailchimp_template_select',
@@ -34,7 +34,7 @@ class MailChimpTransportSettingsType extends AbstractTransportSettingsType
                     'required' => true,
                     'channel_field' => 'channel'
                 ]
-            )*/;
+            );
 
         parent::buildForm($builder, $options);
     }
